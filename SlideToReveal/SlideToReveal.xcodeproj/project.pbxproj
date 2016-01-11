@@ -12,6 +12,7 @@
 		4CB7A1501C440B5900B094A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB7A14E1C440B5900B094A1 /* Main.storyboard */; };
 		4CB7A1521C440B5900B094A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CB7A1511C440B5900B094A1 /* Assets.xcassets */; };
 		4CB7A1551C440B5900B094A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB7A1531C440B5900B094A1 /* LaunchScreen.storyboard */; };
+		4CB7A15E1C44101B00B094A1 /* AnimatedMaskLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB7A15D1C44101B00B094A1 /* AnimatedMaskLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4CB7A1511C440B5900B094A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CB7A1541C440B5900B094A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CB7A1561C440B5900B094A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CB7A15D1C44101B00B094A1 /* AnimatedMaskLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedMaskLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		4CB7A1491C440B5900B094A1 /* SlideToReveal */ = {
 			isa = PBXGroup;
 			children = (
+				4CB7A15D1C44101B00B094A1 /* AnimatedMaskLabel.swift */,
 				4CB7A14A1C440B5900B094A1 /* AppDelegate.swift */,
 				4CB7A14C1C440B5900B094A1 /* ViewController.swift */,
 				4CB7A14E1C440B5900B094A1 /* Main.storyboard */,
 				4CB7A1511C440B5900B094A1 /* Assets.xcassets */,
 				4CB7A1531C440B5900B094A1 /* LaunchScreen.storyboard */,
-				4CB7A1561C440B5900B094A1 /* Info.plist */,
+				4CB7A15C1C440DDD00B094A1 /* SupportingFiles */,
 			);
 			path = SlideToReveal;
+			sourceTree = "<group>";
+		};
+		4CB7A15C1C440DDD00B094A1 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				4CB7A1561C440B5900B094A1 /* Info.plist */,
+			);
+			name = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			files = (
 				4CB7A14D1C440B5900B094A1 /* ViewController.swift in Sources */,
 				4CB7A14B1C440B5900B094A1 /* AppDelegate.swift in Sources */,
+				4CB7A15E1C44101B00B094A1 /* AnimatedMaskLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
